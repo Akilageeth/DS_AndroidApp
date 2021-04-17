@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="vertical" 
+    android:background="@drawable/timer_bg"
+    android:id="@+id/countdownlayout"
+    >
+
+    <TextView
+        android:id="@+id/countdown"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Remaining: 15:00"
+        android:textColor="@color/orange"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

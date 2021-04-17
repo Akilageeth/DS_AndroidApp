@@ -1,0 +1,241 @@
+[
+    {
+        "outputFile": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endColumn": 44,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 50,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 215,
+                        "endColumn": 46,
+                        "endOffset": 261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 39,
+                    "endOffset": 186
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 132,
+                        "endColumn": 39,
+                        "endOffset": 167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 191,
+                    "endColumn": 40,
+                    "endOffset": 227
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 53,
+                        "endColumn": 36,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 232,
+                    "endColumn": 39,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 91,
+                        "endColumn": 35,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 272,
+                    "endColumn": 49,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 49,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endLine": 15,
+                    "endColumn": 13,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endLine": 13,
+                        "endColumn": 13,
+                        "endOffset": 840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 914,
+                    "endColumn": 42,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endColumn": 56,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 56,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 47,
+                    "endOffset": 1057
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 47,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1062,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1224
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1229,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1371
+                },
+                "from": {
+                    "file": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 205
+                    }
+                }
+            }
+        ]
+    }
+]

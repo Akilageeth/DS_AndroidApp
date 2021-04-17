@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/feedbackDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bullet"
+        android:drawablePadding="8dp"
+        android:padding="5dp"
+        android:text="List Item"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+<RatingBar
+    android:id="@+id/feedbackRating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/feedbackDate"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/remarksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedbackRating"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Remarks : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/feedbackremarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remarksText"
+        android:layout_alignLeft="@+id/feedbackRating"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+</RelativeLayout>

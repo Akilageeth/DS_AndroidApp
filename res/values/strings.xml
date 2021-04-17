@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="app_title">The Hillgram Hotel</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="about">About the Hotel</string>
+    <string name="about_note">
+Savour your penchant for finer comforts.
+        Partner with sheer luxury at Hillgram Hotel, as you attend a business event in the capital city.
+        Let the opulence of our meeting rooms and conference halls seep into flourishing work partnerships.
+        Raise a toast to all the success at our plush restaurants and taste jubilance like never before.
+        When you’ve enjoyed every bit of your Grand accomplishments, retire to your
+        room, and relish the exquisite comforts that Colombo’s most lavish business hotel has to offer.
+    </string>
+</resources>

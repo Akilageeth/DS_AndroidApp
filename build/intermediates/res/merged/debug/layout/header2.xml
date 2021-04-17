@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="fill_horizontal"
+    android:background="@color/back_color"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/headertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/seperator" />
+
+
+    <ImageView
+        android:id="@+id/homeBtn"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/home_btn" />
+
+    <RelativeLayout
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+            android:id="@+id/backBtnImage"
+            android:layout_width="24dp"
+            android:layout_height="39dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_btn" />
+    </RelativeLayout>
+
+</RelativeLayout>

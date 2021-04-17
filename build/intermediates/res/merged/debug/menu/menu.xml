@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuProfile" android:icon="@drawable/user" android:title="Profile"></item>
+    <item android:id="@+id/menuAbout" android:icon="@drawable/about_icon_menu" android:title="About"></item>
+    <item android:id="@+id/menuExit" android:icon="@drawable/exit" android:title="Exit"></item>
+  
+</menu>

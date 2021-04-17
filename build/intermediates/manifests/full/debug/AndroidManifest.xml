@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comsats.restaurantandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.comsats.restaurantandroid.activity.ApplicationMenu" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Home" />
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.CategoriesList"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.DishesList"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.HotDishesList"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Favourite" />
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.FavouriteDishesList"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.comsats.restaurantandroid.activity.MostOrderedDishesList"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.comsats.restaurantandroid.activity.DishDetail" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Loading" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Order" />
+        <activity android:name="com.comsats.restaurantandroid.activity.OrderBasket" />
+        <activity android:name="com.comsats.restaurantandroid.activity.RunningOrder" />
+        <activity android:name="com.comsats.restaurantandroid.activity.OrderHistoryTab" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Contact" />
+        <activity android:name="com.comsats.restaurantandroid.activity.About" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Feedback" />
+        <activity android:name="com.comsats.restaurantandroid.activity.PostFeedback" />
+        <activity android:name="com.comsats.restaurantandroid.activity.FeedbackHistoryTab" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Greeting" />
+        <activity android:name="com.comsats.restaurantandroid.activity.PrefsActivity" />
+    </application>
+
+</manifest>

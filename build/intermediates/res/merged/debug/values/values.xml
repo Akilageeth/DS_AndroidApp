@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back_color">#bd2ba9</color>
+    <color name="back_color_light">#de812a</color>
+    <color name="black">#77328b</color>
+    <color name="orange">#ff5500</color>
+    <color name="white">#ffffff</color>
+    <string name="about">About the Hotel</string>
+    <string name="about_note">
+Savour your penchant for finer comforts.
+        Partner with sheer luxury at Hillgram Hotel, as you attend a business event in the capital city.
+        Let the opulence of our meeting rooms and conference halls seep into flourishing work partnerships.
+        Raise a toast to all the success at our plush restaurants and taste jubilance like never before.
+        When you’ve enjoyed every bit of your Grand accomplishments, retire to your
+        room, and relish the exquisite comforts that Colombo’s most lavish business hotel has to offer.
+    </string>
+    <string name="app_name">Hotel</string>
+    <string name="app_title">The Hillgram Hotel</string>
+    <string name="main_menu">Main Menu</string>
+    <style name="blinkText" parent="normalText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="normalText">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

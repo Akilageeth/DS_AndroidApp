@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color_light"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header2" />
+<include layout="@layout/top_orderbar" android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/dish_image"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/header_image" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/dish_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/add_fav"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="0dp"
+                android:text="Dish Title"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dish_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_title"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="22dp"
+                android:text="Discount: 0%"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dish_calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_discount"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="-1dp"
+                android:text="Calories"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dish_cook_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_calories"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-1dp"
+                android:text="Cooking Time"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dish_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_cook_time"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="Ingredients"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dish_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc"
+                android:layout_alignParentLeft="true"
+                android:padding="5dp"
+                android:text="sdafjhsdkjfhsjdkhfkjsdhfkjsdhfkjhsdkjfhdskfhksdhflksdjfksdhjkfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjd  jh jsh dfhk jhdfk hdfk hkjh fkd hdfh kdfh kjhfkj hdfkj"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_ingredients"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:text="Description"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/add_order"
+                android:layout_width="127dp"
+                android:layout_height="82dp"
+                android:layout_below="@+id/add_fav"
+                android:layout_alignLeft="@+id/add_fav"
+                android:layout_marginLeft="-23dp"
+                android:src="@drawable/add_to_order" />
+
+            <TextView
+                android:id="@+id/dish_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish_title"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="2dp"
+                android:text="Price"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/add_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:src="@drawable/add_to_fav" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

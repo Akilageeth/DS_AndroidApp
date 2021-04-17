@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Desktop\RestaurantAppFinal\RestaurantApp - Copy\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\user\Desktop\RestaurantAppFinal\RestaurantApp - Copy\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2e2a510bf82962dc734f2680f8e4911f9a8954b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\Desktop\RestaurantAppFinal\RestaurantApp - Copy\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="857f8e430fe00a504ca2dfdc09057b63b0271873">
+        <dex dex="C:\Users\user\Desktop\RestaurantAppFinal\RestaurantApp - Copy\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_07e2e2438c4826f9e626e7de39a148c45e11f91f\classes.dex" />
+    </item>
+
+</items>
