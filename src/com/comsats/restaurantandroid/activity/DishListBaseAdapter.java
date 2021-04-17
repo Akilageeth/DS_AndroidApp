@@ -74,7 +74,7 @@ public class DishListBaseAdapter extends BaseAdapter {
 			holder.txt_itemName = (TextView) convertView.findViewById(R.id.name);
 			holder.txt_itemPrice = (TextView) convertView.findViewById(R.id.price);
 			holder.itemImage = (ImageView) convertView.findViewById(R.id.photo);
-			holder.quickAdd = (ImageView) convertView.findViewById(R.id.quickAdd);
+			//holder.quickAdd = (ImageView) convertView.findViewById(R.id.quickAdd);
 			
 			convertView.setTag(holder);
 		} else {
@@ -84,91 +84,91 @@ public class DishListBaseAdapter extends BaseAdapter {
 		
 		final Integer dish_id = itemDetailsArrayList.get(position).getDishID();
 		final DishDetails obj = itemDetailsArrayList.get(position);
-		holder.quickAdd.setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				final AlertDialog.Builder alert = new AlertDialog.Builder(l_Inflater.getContext());
-
-				alert.setTitle("Quantity");
-				alert.setMessage("How Many " + itemDetailsArrayList.get(position).getDishUnit());
-
-				// Set an EditText view to get user input 
-				final EditText input = new EditText(l_Inflater.getContext());
-				input.setInputType(0x00002002);
-				
-				input.setText("1");
-				alert.setView(input);
-
-				alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-				public void onClick(DialogInterface dialog, int whichButton) {
-					//Toast.makeText(l_Inflater.getContext(), "Item "+input.getText()+" added to your order!", Toast.LENGTH_LONG).show();
-					if(input.getText().toString().equals("") || input.getText().toString() == null)
-					{
-						Toast.makeText(l_Inflater.getContext(), "Please set quantity again", Toast.LENGTH_LONG).show();
-					}
-					else
-					{
-						
-					
-					Float quantity = Float.parseFloat(input.getText().toString());
-					obj.setQuantity(quantity);
-					OrderStore.saveOrderItem(dish_id, obj);
-					Toast.makeText(l_Inflater.getContext(), "Item "+obj.getDishName()+" added to your order!", Toast.LENGTH_LONG).show();
-
-					if(activityType.equals("hot"))
-					{
-						((Activity)l_Inflater.getContext()).finish();
-					Intent myIntent = new Intent(l_Inflater.getContext(), HotDishesList.class);
-
-					l_Inflater.getContext().startActivity(myIntent);
-					}else if(activityType.equals("fav"))
-					{
-						((Activity)l_Inflater.getContext()).finish();
-						Intent myIntent = new Intent(l_Inflater.getContext(), FavouriteDishesList.class);
-
-						l_Inflater.getContext().startActivity(myIntent);
-
-					}else if(activityType.equals("mostOrder"))
-					{
-						((Activity)l_Inflater.getContext()).finish();
-						Intent myIntent = new Intent(l_Inflater.getContext(), MostOrderedDishesList.class);
-
-						l_Inflater.getContext().startActivity(myIntent);
-
-					}else if(activityType.equals("normal"))
-					{
-						((Activity)l_Inflater.getContext()).finish();
-						Bundle basket = new Bundle();
-						basket.putString("id", catID);
-						basket.putString("name", catName);
-						Intent myIntent = new Intent(l_Inflater.getContext(), DishesList.class);
-						myIntent.putExtras(basket);
-						l_Inflater.getContext().startActivity(myIntent);
-					} 
-					
-					}
-				  }
-				});
-
-				alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-				  public void onClick(DialogInterface dialog, int whichButton) {
-				    // Canceled.
-					  dialog.cancel();
-				  }
-				});
-
-				alert.show();
-				
-				//OrderStore.saveOrderItem(dish_id, obj);
-				//Toast.makeText(l_Inflater.getContext(), "Item "+obj.getDishName()+" added to your order!", Toast.LENGTH_LONG).show();
-
-				//Intent myIntent = new Intent(l_Inflater.getContext(), HotDishesList.class);
-
-				//l_Inflater.getContext().startActivity(myIntent);
-				
-								}
-		});
+//		holder.quickAdd.setOnClickListener(new OnClickListener() {
+//
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				final AlertDialog.Builder alert = new AlertDialog.Builder(l_Inflater.getContext());
+//
+//				alert.setTitle("Quantity");
+//				alert.setMessage("How Many " + itemDetailsArrayList.get(position).getDishUnit());
+//
+//				// Set an EditText view to get user input
+//				final EditText input = new EditText(l_Inflater.getContext());
+//				input.setInputType(0x00002002);
+//
+//				input.setText("1");
+//				alert.setView(input);
+//
+//				alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+//				public void onClick(DialogInterface dialog, int whichButton) {
+//					//Toast.makeText(l_Inflater.getContext(), "Item "+input.getText()+" added to your order!", Toast.LENGTH_LONG).show();
+//					if(input.getText().toString().equals("") || input.getText().toString() == null)
+//					{
+//						Toast.makeText(l_Inflater.getContext(), "Please set quantity again", Toast.LENGTH_LONG).show();
+//					}
+//					else
+//					{
+//
+//
+//					Float quantity = Float.parseFloat(input.getText().toString());
+//					obj.setQuantity(quantity);
+//					OrderStore.saveOrderItem(dish_id, obj);
+//					Toast.makeText(l_Inflater.getContext(), "Item "+obj.getDishName()+" added to your order!", Toast.LENGTH_LONG).show();
+//
+//					if(activityType.equals("hot"))
+//					{
+//						((Activity)l_Inflater.getContext()).finish();
+//					Intent myIntent = new Intent(l_Inflater.getContext(), HotDishesList.class);
+//
+//					l_Inflater.getContext().startActivity(myIntent);
+//					}else if(activityType.equals("fav"))
+//					{
+//						((Activity)l_Inflater.getContext()).finish();
+//						Intent myIntent = new Intent(l_Inflater.getContext(), FavouriteDishesList.class);
+//
+//						l_Inflater.getContext().startActivity(myIntent);
+//
+//					}else if(activityType.equals("mostOrder"))
+//					{
+//						((Activity)l_Inflater.getContext()).finish();
+//						Intent myIntent = new Intent(l_Inflater.getContext(), MostOrderedDishesList.class);
+//
+//						l_Inflater.getContext().startActivity(myIntent);
+//
+//					}else if(activityType.equals("normal"))
+//					{
+//						((Activity)l_Inflater.getContext()).finish();
+//						Bundle basket = new Bundle();
+//						basket.putString("id", catID);
+//						basket.putString("name", catName);
+//						Intent myIntent = new Intent(l_Inflater.getContext(), DishesList.class);
+//						myIntent.putExtras(basket);
+//						l_Inflater.getContext().startActivity(myIntent);
+//					}
+//
+//					}
+//				  }
+//				});
+//
+//				alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+//				  public void onClick(DialogInterface dialog, int whichButton) {
+//				    // Canceled.
+//					  dialog.cancel();
+//				  }
+//				});
+//
+//				alert.show();
+//
+//				//OrderStore.saveOrderItem(dish_id, obj);
+//				//Toast.makeText(l_Inflater.getContext(), "Item "+obj.getDishName()+" added to your order!", Toast.LENGTH_LONG).show();
+//
+//				//Intent myIntent = new Intent(l_Inflater.getContext(), HotDishesList.class);
+//
+//				//l_Inflater.getContext().startActivity(myIntent);
+//
+//								}
+//		});
 		
 		holder.txt_itemName.setText(itemDetailsArrayList.get(position).getDishName());
 		holder.txt_itemPrice.setText(itemDetailsArrayList.get(position).getDishPrice() + " $");

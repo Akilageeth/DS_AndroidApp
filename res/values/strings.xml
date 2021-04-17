@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hotel</string>
-    <string name="app_title">The Hillgram Hotel</string>
+    <string name="app_title">The Hillgram Hotels</string>
     <string name="main_menu">Main Menu</string>
     <string name="about">About the Hotel</string>
     <string name="about_note">

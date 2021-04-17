@@ -33,13 +33,4 @@
 		android:layout_toRightOf="@+id/photo"
 		/>
 
-	<ImageView
-		android:id="@+id/quickAdd"
-		android:layout_width="51dp"
-		android:layout_height="46dp"
-		android:layout_alignBottom="@+id/price"
-		android:layout_alignParentRight="true"
-		android:layout_marginRight="14dp"
-		android:layout_marginBottom="-2dp"
-		android:src="@drawable/quick_add" />
 </RelativeLayout>

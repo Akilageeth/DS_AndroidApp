@@ -32,12 +32,12 @@
         "source": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\layout\\currentorderlist.xml"
     },
     {
-        "merged": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\build\\intermediates\\res\\merged\\debug\\layout\\main_menu.xml",
-        "source": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\layout\\main_menu.xml"
-    },
-    {
         "merged": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\build\\intermediates\\res\\merged\\debug\\layout\\feedbackhistorylist.xml",
         "source": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\layout\\feedbackhistorylist.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\build\\intermediates\\res\\merged\\debug\\layout\\main_menu.xml",
+        "source": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\res\\layout\\main_menu.xml"
     },
     {
         "merged": "E:\\Downloads\\Final\\CNET343SL Distributed Systems3\\CNET343SL-10602029\\Restaurant App\\Android app source\\Android Studio Project\\RestaurantApp\\build\\intermediates\\res\\merged\\debug\\layout\\feedback.xml",

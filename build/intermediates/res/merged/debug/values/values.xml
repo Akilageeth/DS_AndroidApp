@@ -15,7 +15,7 @@ Savour your penchant for finer comforts.
         room, and relish the exquisite comforts that Colombo’s most lavish business hotel has to offer.
     </string>
     <string name="app_name">Hotel</string>
-    <string name="app_title">The Hillgram Hotel</string>
+    <string name="app_title">The Hillgram Hotels</string>
     <string name="main_menu">Main Menu</string>
     <style name="blinkText" parent="normalText">
         <item name="android:textStyle">bold</item>

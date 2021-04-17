@@ -37,5 +37,6 @@ android:orientation="horizontal" >
 </LinearLayout>
 	 <ListView 
 	 	android:layout_height="wrap_content"
-	 	android:layout_width="fill_parent" android:id="@+id/listV_main"/>
+	 	android:layout_width="fill_parent"
+		 android:id="@+id/listV_main"/>
 </LinearLayout>
