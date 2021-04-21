@@ -35,8 +35,8 @@ public class Splash extends Activity{
 		if(!isNet)
 		{
 			  AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		        builder.setMessage("Turn on mobile data or use Wi-Fi to access data");
-		        builder.setTitle("Mobile Data is Turned Off");
+		        builder.setMessage("Turn on mobile data or Wi-Fi ");
+		        builder.setTitle("Mobile Data is Off");
 		        
 		        builder.setPositiveButton("Settings",
 						new DialogInterface.OnClickListener() {

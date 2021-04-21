@@ -45,6 +45,7 @@
         <activity android:name=".activity.FeedbackHistoryTab"></activity>
         <activity android:name=".activity.Greeting"></activity>
         <activity android:name=".activity.PrefsActivity"></activity>
+        <activity android:name=".activity.Hotels"></activity>
     </application>
 
 </manifest>

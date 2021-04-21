@@ -42,9 +42,7 @@ public class Greeting extends ApplicationMenu{
 		
         ImageLoader imageLoader = new ImageLoader(this);
         imageLoader.DisplayImage(thumburl, greetingBanner);
-      //  Drawable drawable = LoadImageFromWebOperations(thumburl);
-		
-	//	greetingBanner.setImageDrawable(drawable);
+
 		LayoutParams params = (LayoutParams) greetingBanner.getLayoutParams();
 		Display mDisplay= this.getWindowManager().getDefaultDisplay();
 		//params.width = 480;
@@ -58,7 +56,6 @@ public class Greeting extends ApplicationMenu{
 			params.height = 300;
 		}
 
-		// existing height is ok as is, no need to edit it
 		greetingBanner.setLayoutParams(params);
 
 		greetingBanner.setScaleType(ScaleType.FIT_XY);

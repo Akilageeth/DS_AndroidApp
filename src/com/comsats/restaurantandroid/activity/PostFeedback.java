@@ -46,7 +46,7 @@ public class PostFeedback extends Activity{
 				String response = postFeedback(ratingBar.getRating(), uri.toString(), Customer.getUuid());
 				if(response.equals("true"))
 				{
-				Toast.makeText(PostFeedback.this, "Feedback Posted Successfully", Toast.LENGTH_SHORT).show();
+				Toast.makeText(PostFeedback.this, "Feedback Added Successfully", Toast.LENGTH_SHORT).show();
 				restartActivity();
 				}
 			}

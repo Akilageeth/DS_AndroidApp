@@ -208,7 +208,7 @@ public class OrderBasket extends Activity{
 					alert.setTitle("Confirm order");
 					LinearLayout layout = new LinearLayout(OrderBasket.this);
 				    layout.setOrientation(LinearLayout.VERTICAL);
-				    alert.setMessage("Select Table No.");
+				    alert.setMessage("Select Room No.");
 				    
 				    //final EditText table = new EditText(Order.this);
 				    //table.setHint("Enter table no");

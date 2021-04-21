@@ -61,49 +61,10 @@ public class CategoriesListBaseAdapter extends BaseAdapter {
 		String thumburl = URLConnectionReader.getMediaIP()+"uploads/category/" + itemDetailsArrayList.get(position).getCatImage();
 		imageLoader.DisplayImage(thumburl, holder.itemImage);
 		
-		//LayoutParams params = (LayoutParams) holder.itemImage.getLayoutParams();
-		//params.width = 150;
-		//params.height = 98;
-		
-		// existing height is ok as is, no need to edit it
-		//holder.itemImage.setLayoutParams(params);
+
 		
 		holder.itemImage.setScaleType(ScaleType.FIT_XY);
-		/*try {
 
-			String thumburl = "http://"+URLConnectionReader.getIP()+":8080/RestAutomationAdmin/uploads/category/" + itemDetailsArrayList.get(position).getCatImage();
-			imageLoader.DisplayImage(thumburl, holder.itemImage);
-			
-			Drawable drawable = LoadImageFromWebOperations(thumburl);
-			
-			holder.itemImage.setImageDrawable(drawable);
-			LayoutParams params = (LayoutParams) holder.itemImage.getLayoutParams();
-			params.width = 150;
-			params.height = 98;
-			
-			// existing height is ok as is, no need to edit it
-			holder.itemImage.setLayoutParams(params);
-			
-			holder.itemImage.setScaleType(ScaleType.FIT_XY);
-
-		} catch (OutOfMemoryError e) {
-		    System.gc();
-			String thumburl = "http://"+URLConnectionReader.getIP()+":8080/RestAutomationAdmin/uploads/category/" + itemDetailsArrayList.get(position).getCatImage();
-			
-			
-			Drawable drawable = LoadImageFromWebOperations(thumburl);
-			
-			holder.itemImage.setImageDrawable(drawable);
-			LayoutParams params = (LayoutParams) holder.itemImage.getLayoutParams();
-			params.width = 150;
-			params.height = 98;
-			
-			// existing height is ok as is, no need to edit it
-			holder.itemImage.setLayoutParams(params);
-			
-			holder.itemImage.setScaleType(ScaleType.FIT_XY);
-
-		}*/
 		
 		return convertView;
 	}
@@ -112,11 +73,7 @@ public class CategoriesListBaseAdapter extends BaseAdapter {
 		TextView txt_itemName;
 		ImageView itemImage;
 	}
-	/**
-     * Filter
-     * @author 9Android.net
-     *
-     */
+
     public void filter(String charText) {
         charText = charText.toLowerCase();
         itemDetailsArrayList.clear();

@@ -55,6 +55,7 @@
         <activity android:name="com.comsats.restaurantandroid.activity.FeedbackHistoryTab" />
         <activity android:name="com.comsats.restaurantandroid.activity.Greeting" />
         <activity android:name="com.comsats.restaurantandroid.activity.PrefsActivity" />
+        <activity android:name="com.comsats.restaurantandroid.activity.Hotels" />
     </application>
 
 </manifest>

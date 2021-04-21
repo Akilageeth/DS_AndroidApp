@@ -111,11 +111,11 @@
 
             <ImageView
                 android:id="@+id/add_order"
-                android:layout_width="127dp"
-                android:layout_height="82dp"
+                android:layout_width="152dp"
+                android:layout_height="105dp"
                 android:layout_below="@+id/add_fav"
                 android:layout_alignLeft="@+id/add_fav"
-                android:layout_marginLeft="-23dp"
+                android:layout_marginLeft="-96dp"
                 android:src="@drawable/add_to_order" />
 
             <TextView

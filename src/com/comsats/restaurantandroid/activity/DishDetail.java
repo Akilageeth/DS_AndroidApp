@@ -92,7 +92,7 @@ public class DishDetail extends ApplicationMenu {
 					AlertDialog.Builder alert = new AlertDialog.Builder(context);
 
 					alert.setTitle("Favourite Dish");
-					alert.setMessage("Want to add this to your favourite dishs?");
+					alert.setMessage("Add this to favourite?");
 					
 					alert.setPositiveButton("Ok",
 							new DialogInterface.OnClickListener() {
@@ -103,14 +103,14 @@ public class DishDetail extends ApplicationMenu {
 									{
 										Toast.makeText(
 												context,
-													"Dish added to your favourite list",
+													"Dish added",
 												Toast.LENGTH_LONG).show();
 									}
 									else if(result.equals("already"))
 									{
 										Toast.makeText(
 												context,
-													"Dish already in your favourite list",
+													"Dish already added to favourites",
 												Toast.LENGTH_LONG).show();
 									}
 									
@@ -156,7 +156,7 @@ public class DishDetail extends ApplicationMenu {
 		dish_cook.setText("Cooking Time: "
 				+ gotBasket.getString("dishCookTime") + " minutes");
 		if (ingredient_list == null) {
-			dish_ingredients.setText("Ingredients: No Major Ingredient");
+			dish_ingredients.setText("Ingredients: No Special Ingredient");
 		} else {
 			dish_ingredients.setText("Ingredients: " + ingredient_list);
 		}
@@ -168,11 +168,7 @@ public class DishDetail extends ApplicationMenu {
 				+ gotBasket.getString("dishImage");
 		ImageLoader imageLoader = new ImageLoader(this);
 		imageLoader.DisplayImage(thumburl, dish_image);
-		
-	//	Drawable drawable = LoadImageFromWebOperations(thumburl);
-		// dish_image.setMinimumWidth(880);
-		// dish_image.setMinimumHeight(200);
-	//	dish_image.setImageDrawable(drawable);
+
 		LayoutParams params = (LayoutParams) dish_image.getLayoutParams();
 		Display mDisplay= this.getWindowManager().getDefaultDisplay();
 		//params.width = 480;

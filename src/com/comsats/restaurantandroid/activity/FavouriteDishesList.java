@@ -150,7 +150,7 @@ public class FavouriteDishesList extends ApplicationMenu implements TextWatcher{
         }); 
 		
         searchDish = (EditText) findViewById(R.id.search_dish);
-        searchDish.setHint("Search Favourite Dish");
+        searchDish.setHint("Search Favourite Food");
         searchDish.addTextChangedListener(this);
 	}
 	

@@ -54,7 +54,7 @@ TextView headerTxt = (TextView) findViewById(R.id.headertext);
         // Create an Intent to launch an Activity for the tab (to be reused)
         intent = new Intent().setClass(this, PostFeedback.class);
         spec = tabHost.newTabSpec("postfeedback")
-        .setIndicator("Post Feedback", res.getDrawable(R.drawable.rate_me))
+        .setIndicator("Add Feedback", res.getDrawable(R.drawable.rate_me))
         .setContent(intent);
         tabHost.addTab(spec);
 

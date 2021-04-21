@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:2:1-50:12
+ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:3:5-44
 	android:versionName
@@ -34,7 +34,7 @@ ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\
 	android:name
 		ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:12:18-72
 application
-ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:14:5-48:19
+ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:14:5-49:19
 	android:label
 		ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:17:9-41
 	android:icon
@@ -151,3 +151,7 @@ activity#com.comsats.restaurantandroid.activity.PrefsActivity
 ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:47:9-69
 	android:name
 		ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:47:19-57
+activity#com.comsats.restaurantandroid.activity.Hotels
+ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:48:9-62
+	android:name
+		ADDED from E:\Downloads\Final\CNET343SL Distributed Systems3\CNET343SL-10602029\Restaurant App\Android app source\Android Studio Project\RestaurantApp\AndroidManifest.xml:48:19-50

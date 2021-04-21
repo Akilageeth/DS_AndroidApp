@@ -67,6 +67,9 @@ case 4:
 case 5:
 	holder.iconName.setImageResource(R.drawable.menu6);
 	break;
+	case 6:
+		holder.iconName.setImageResource(R.drawable.menu7);
+		break;
 
 		default:
 			break;

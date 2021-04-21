@@ -42,7 +42,7 @@ public class OrderHistoryTab extends Activity{
 	        }
 	        else
 	        {
-	        	Toast.makeText(OrderHistoryTab.this,"History Not Found!", Toast.LENGTH_LONG).show();
+	        	Toast.makeText(OrderHistoryTab.this,"No History Found!", Toast.LENGTH_LONG).show();
 	        }
 	       
 	        
@@ -57,7 +57,7 @@ public class OrderHistoryTab extends Activity{
 
 	            	final AlertDialog.Builder historyDetail = new AlertDialog.Builder(OrderHistoryTab.this);
 
-					historyDetail.setTitle("Total Bill: "+obj_itemDetails.getOrderTotal()+"PKR");
+					historyDetail.setTitle("Total Bill: "+obj_itemDetails.getOrderTotal()+"LKR");
 					ScrollView scrollView = new ScrollView(OrderHistoryTab.this);
 					TableLayout layout = new TableLayout(OrderHistoryTab.this);
 					layout.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.FILL_PARENT));

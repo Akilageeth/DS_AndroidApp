@@ -69,7 +69,7 @@ public class MostOrderedDishesList extends ApplicationMenu implements TextWatche
         dishesList = (ListView) findViewById(R.id.dishesList);
         adapter = new DishListBaseAdapter(this, dish_details,"mostOrder");
         
-        headerTxt.setText("Most Order Dishes");
+        headerTxt.setText("Most Ordered Food");
         
         backBtn.setOnClickListener(new OnClickListener() {
 			
@@ -213,7 +213,7 @@ public class MostOrderedDishesList extends ApplicationMenu implements TextWatche
 		}
 		else
 		{
-		// Toast.makeText(getApplicationContext(), "nothing", Toast.LENGTH_LONG).show();
+
 		}
     	return results;
     }
